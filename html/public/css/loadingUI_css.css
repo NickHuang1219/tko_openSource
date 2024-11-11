@@ -1,0 +1,35 @@
+﻿.loadingUI{
+    width:100%;/*!important*/
+    height:100%;
+    background-color:#cececeba;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    opacity:1.9;
+    position:absolute;
+    left:0px;
+    top:0px;
+    display:flex;/*flex;/*block;*//*none*/
+    z-index:888;
+    /* align-items:center; */
+    position: absolute;
+    overflow-y:overlay;
+    z-index:99999;
+}
+.loadingUIPinner-border{
+    color:#992db6;
+    width:5vh;height:5vh;
+}
+.loadingUIText{
+    color:#992db6;
+    padding-top:1vh;
+    font-size:2.5vh;
+}
+
+#Mline {
+    /* border:1px solid #cccccc; */
+    /* width:300px;
+    height:100px; */
+    /* background-color:#FFFFFF; */
+    /* padding:5px; */
+    overflow:auto;
+    }
